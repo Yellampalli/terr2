@@ -8,15 +8,15 @@ variable "cidr_subnet" {
 }
 variable "availability_zone" {
   description = "availability zone to create subnet"
-  default = "ap-south-1a"
+  default = "us-east-1a"
 }
 variable "key_name" {
   description = "key name"
-  default = "Sec_key"
+  default = "Suri"
 }
 variable "instance_ami" {
   description = "AMI for aws EC2 instance"
-  default = "ami-0447a12f28fddb066"
+  default = "ami-05fa00d4c63e32376"
 }
 variable "instance_type" {
   description = "type for aws EC2 instance"
