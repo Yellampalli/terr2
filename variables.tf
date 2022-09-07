@@ -16,7 +16,7 @@ variable "key_name" {
 }
 variable "instance_ami" {
   description = "AMI for aws EC2 instance"
-  default = "ami-05fa00d4c63e32376"
+  default = "ami-06489866022e12a14"
 }
 variable "instance_type" {
   description = "type for aws EC2 instance"
