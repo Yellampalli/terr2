@@ -12,7 +12,7 @@ variable "availability_zone" {
 }
 variable "key_name" {
   description = "key name"
-  default = "Suri"
+  default = "Mumbai_dev2"
 }
 variable "instance_ami" {
   description = "AMI for aws EC2 instance"
